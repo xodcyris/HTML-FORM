@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="/CSS/forms.css">
+</head>
+<body>
+    <h2 style="text-align: center;">Registration Form</h2>
+    <div>
+        <form style="text-align: center;">
+        <label for="use">User Name:</label>
+        <input type="text" name="use" id="use">
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass">
+        <input type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <div style="background-color: grey;">
+        <h2>Fill</h2>
+        <form>
+            <label for="fn">First Name:</label>
+            <input type="text" name="fn" id="fn" title="first name">
+            
+            <label for="mn">Middle Name:</label>
+            <input type="text" name="mn" id="mn" title="middle name">
+            
+            
+            <label for="ln">Last Name:</label>
+            <input type="text" name="ln" id="ln" title="lastname">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" title="email">
+            
+            
+            <label for="place">Place:</label>
+            <input type="text" name="place" id="place" title="place">
+            
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" title="age" min="1" max="100">
+            <br>
+            <button onclick="alert('Your Data Saved Successfully')" type="button" class="butt"><img src="/photos/RegisterHere-Button.jpg" alt="RegisterHere-Button" title="Register Here" width="120" height="20"></button>
+        </form>
+    </div>
+
+
+
+</body>
+
+
+
+
+</html>
